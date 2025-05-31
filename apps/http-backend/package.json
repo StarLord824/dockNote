@@ -14,10 +14,14 @@
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
-    "@repo/typescript-config": "workspace:*"
+    "@repo/typescript-config": "workspace:*",
+    "@types/express": "^5.0.2",
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.9"
   },
   "dependencies": {
-    "@types/express": "^5.0.2",
+    "bcrypt": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
     "express": "^5.1.0"
   }
 }
