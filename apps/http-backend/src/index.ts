@@ -1,0 +1,11 @@
+import express from 'express';
+
+// import userRouter from './routes/user';
+const app = express();
+
+app.use(express.json()); // Middleware to parse JSON bodies
+// app.use('/user', userRouter) // signin and signup
+
+app.listen(3005, () => {
+  console.log('Server is running on port 3000');
+});
