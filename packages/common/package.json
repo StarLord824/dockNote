@@ -12,5 +12,8 @@
   "type": "commonjs",
   "devDependencies": {
     "@repo/typescript-config": "workspace:*"   
+  },
+  "exports": {
+    "./config": "./src/config.ts"
   }
 }

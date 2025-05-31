@@ -15,6 +15,7 @@
   "type": "commonjs",
   "devDependencies": {
     "@repo/typescript-config": "workspace:*",
+    "@repo/common": "workspace:*",
     "@types/ws": "^8.18.1",
     "@types/bcrypt": "^5.0.2",
     "@types/jsonwebtoken": "^9.0.9"
